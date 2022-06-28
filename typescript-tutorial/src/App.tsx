@@ -4,8 +4,6 @@ import InputField from './components/InputField';
 import TodoList from './components/TodoList';
 import { Todo } from './model';
 
-let name: string;
-
 const App: React.FC = () => {
 
   const [todo, setTodo] = useState<string>("");
